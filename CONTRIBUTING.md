@@ -41,7 +41,7 @@ Low-effort or speculative features without clear value will be rejected.
 ### Prerequisites
 
 - PostgreSQL 15+
-- Node.js (TypeScript)
+- Bun
 - Access to a test database with realistic data
 - `pg_stat_statements` enabled
 

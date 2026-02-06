@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "lib": ["esnext"],
-    "target": "ES2024",
+    "target": "esnext",
     "moduleDetection": "force",
     "module": "esnext",
     "moduleResolution": "bundler",
@@ -27,7 +27,7 @@
     "noEmit": true,
     "noEmitOnError": true,
     "rootDir": ".",
-    "types": ["node"],
+    "types": ["bun-types", "node"],
     "strict": true,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
