@@ -1,1 +1,1 @@
-console.log("Hello from Rootquotient");
+console.log('Hello from Rootquotient');

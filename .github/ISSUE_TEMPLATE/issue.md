@@ -1,7 +1,7 @@
 ---
 name: General Issue
 about: Report a problem or concern
-title: "[Issue] "
+title: '[Issue] '
 labels: issue
 ---
 

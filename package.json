@@ -1,29 +1,34 @@
 {
   "name": "@rootquotient/pgsense",
   "version": "0.0.1",
-  "description": "Safe, human-in-the-loop index analysis and recommendations for PostgreSQL.",
   "private": false,
+  "description": "Safe, human-in-the-loop index analysis and recommendations for PostgreSQL.",
+  "bugs": {
+    "url": "https://github.com/rootquotient/pgsense/issues"
+  },
   "license": "MIT",
-  "type": "module",
+  "author": "OSS at Rootquotient",
   "repository": {
     "type": "git",
     "url": "https://github.com/rootquotient/pgsense"
   },
-  "bugs": {
-    "url": "https://github.com/rootquotient/pgsense/issues"
+  "type": "module",
+  "scripts": {
+    "fmt": "oxfmt --no-error-on-unmatched-pattern",
+    "fmt:check": "oxfmt --no-error-on-unmatched-pattern --check"
   },
-  "author": "OSS at Rootquotient",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "latest",
+    "bun-types": "^1.3.8",
+    "oxfmt": "^0.28.0",
+    "typescript": "^5.9.3"
+  },
   "tags": [
     "pgsense",
     "postgres",
     "index",
     "optimization",
     "analysis"
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "@types/node": "latest",
-    "bun-types": "^1.3.8",
-    "typescript": "^5.9.3"
-  }
+  ]
 }
